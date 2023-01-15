@@ -1,4 +1,4 @@
-# Get Me Diet
+# Profile Search Server App
 
 A Backend Application for Github Profile Search Application.
 
