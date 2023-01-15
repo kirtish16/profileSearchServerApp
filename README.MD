@@ -54,6 +54,16 @@ Executing tests :
 python manage.py test
 ```
 
+## Endpoints 
+
+The API endpoints are:
+
+| Endpoint   | Description |
+|------------|-----------|
+| /api/check/{username} | Check if Github user with 'username' exist |
+| /api/detail/{username} | Get personal details of Github user with 'username' |
+| /api/repos/{username}?per_page={itemsPerPage}&page={pageNumber} | Get repository details of Github user with 'username'. itemsPerPage defines Number of repository per page. pageNumber defines get repository details for a particular pageNumber |
+
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
